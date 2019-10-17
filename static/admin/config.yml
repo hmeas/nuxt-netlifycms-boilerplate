@@ -12,6 +12,7 @@ collections:
     create: true
     format: 'json'
     fields:
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Type", name: "type", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
